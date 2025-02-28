@@ -7,7 +7,7 @@ import ru.netology.entity.Location;
 import ru.netology.geo.GeoService;
 import ru.netology.i18n.LocalizationService;
 
-public class MessageSenderImpl implements MessageSender {
+public class  MessageSenderImpl implements MessageSender {
 
     public static final String IP_ADDRESS_HEADER = "x-real-ip";
     private final GeoService geoService;
